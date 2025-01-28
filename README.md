@@ -4,11 +4,10 @@ Here is the full code in markdown (README.md) format:
 
 This repository provides solutions to a series of problems demonstrating the use of JavaScript Promises and asynchronous programming with `setTimeout`, `fs.readFile`, and other common operations.
 
+```javascript
 1. File Reading with Callbacks
 
 In this example, we use the `fs.readFile` method to read the content of a file asynchronously using callbacks.
-
-```javascript
 const fs = require('fs');
 const filepath = 'example.txt';
 
